@@ -3,19 +3,13 @@ server:
 spring:
   application:
     name: catalog-service
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/movie-dev
-    username: usr-movie
-    password: pwd-movie
-
-  mongodb:
-    embedded:
-      version: 4.0.2
   data:
     mongodb:
-      database: test
-      port: 27017
+      username: usr-check-mongo
+      password: pwd-check-mongo
+      database: check-dev-mongo
+      port: 27019
+      host: localhost
 
 eureka:
   instance:
