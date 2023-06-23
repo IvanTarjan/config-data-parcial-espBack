@@ -5,10 +5,10 @@ spring:
     name: catalog-service
   data:
     mongodb:
-      username: usr-check-mongo
-      password: pwd-check-mongo
-      database: check-dev-mongo
-      port: 27019
+      username: usr-final-mongo
+      password: pwd-final-mongo
+      database: api-catalog-mongo
+      port: 27018
       host: localhost
 
 eureka:
